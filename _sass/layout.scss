@@ -88,6 +88,10 @@ header {
             width: auto;
         }
     }
+     @media (max-width: 568px){
+            position: absolute;
+            z-index: 2;
+        }
 }
 
 .filledHeader {
@@ -405,6 +409,9 @@ hr {
 }
 
 @media screen and (max-width: 650px) {
+
+   
+
     .getting-started-heading {
         font-size: 55px;
     }
